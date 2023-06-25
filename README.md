@@ -1,0 +1,1 @@
+Odin first project, that consists in build a basic site using only HTML.
