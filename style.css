@@ -1,0 +1,17 @@
+.recipe-card{
+    background-color: rgb(118, 247, 171);
+}
+.plate-photo{
+    width: 600px;
+    height: auto;
+    align-items: center;
+}
+.recipe-title{
+    font-family: Garamond, serif, 'Times New Roman', Times, serif;
+    color: rgb(70, 30, 70);
+    text-align: center;
+}
+h2, ul, li{
+    text-align: center;
+    list-style-type: none;
+}
