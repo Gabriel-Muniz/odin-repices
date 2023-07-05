@@ -1,16 +1,37 @@
+body{
+    background-color: #ECE6DB;
+    padding: 0px;
+}
 .recipe-card{
-    background-color: rgb(118, 247, 171);
+    border: 10px double #B89088;
 }
 .plate-photo{
     width: 600px;
     height: auto;
-    align-items: center;
-    border-radius: 10px;
+    display: block;
+    margin: auto;
+    background-color: brown;
+}
+.img-holder,
+.ingredients-container,
+.steps-container,
+.description-container{
+    background-color: #E6D4D2;
+}
+
+.description-container p{
+    text-align: center;
+}
+
+h2, h1{
+    color: #ECE6DB;
+    background-color: #B89088;
+    margin: 0px;
 }
 .recipe-title{
     font-family: Garamond, serif, 'Times New Roman', Times, serif;
-    color: rgb(70, 30, 70);
     text-align: center;
+    
 }
 h2, ul, li{
     text-align: center;
@@ -18,4 +39,15 @@ h2, ul, li{
 }
 p{
     text-align: center;
+}
+p, ol, ul{
+    margin: 0px;
+    font-size: 18px;
+    line-height: 27px;
+}
+h2{
+    font-size: 30px;
+}
+h1{
+    font-size: 40px;
 }
